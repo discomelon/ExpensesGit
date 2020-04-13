@@ -25,7 +25,7 @@
 <br>
 
 <h4>Currently Viewing {{ header }}</h4>
-<table class="table table-hover">
+<table class="table table-hover .w-auto">
 
 	<thead>
 		<tr>
@@ -54,28 +54,28 @@
 
          {% if header == "Farhan" %}
         <td>
-            <a href="{% url 'edit_Farhan' item.pk %}" class="btn btn-warning btn-sm" role="button" aria-pressed="true" > Edit</a>
+            <a href="{% url 'edit_Farhan' item.pk %}" class="btn btn-warning btn-sm mr-1" role="button" aria-pressed="true" > Edit</a>
             <a href="{% url 'delete_Farhan' item.pk %}" class="btn btn-danger btn-sm" role="button" aria-pressed="true" > x</a>
         </td>
         {% elif header == "Nadia" %}
         <td>
-            <a href="{% url 'edit_Nadia' item.pk %}" class="btn btn-warning btn-sm" role="button" aria-pressed="true" > Edit</a>
+            <a href="{% url 'edit_Nadia' item.pk %}" class="btn btn-warning btn-sm mr-1" role="button" aria-pressed="true" > Edit</a>
             <a href="{% url 'delete_Nadia' item.pk %}" class="btn btn-danger btn-sm" role="button" aria-pressed="true" > x</a>
         </td>
         {% elif header == "FarhanFamily" %}
         <td>
-            <a href="{% url 'edit_FarhanFamily' item.pk %}" class="btn btn-warning btn-sm" role="button" aria-pressed="true" > Edit</a>
+            <a href="{% url 'edit_FarhanFamily' item.pk %}" class="btn btn-warning btn-sm mr-1" role="button" aria-pressed="true" > Edit</a>
             <a href="{% url 'delete_FarhanFamily' item.pk %}" class="btn btn-danger btn-sm" role="button" aria-pressed="true" > x</a>
         </td>
         {% elif header == "Ongie" %}
         <td>
-            <a href="{% url 'edit_Ongie' item.pk %}" class="btn btn-warning btn-sm" role="button" aria-pressed="true" > Edit</a>
+            <a href="{% url 'edit_Ongie' item.pk %}" class="btn btn-warning btn-sm mr-1" role="button" aria-pressed="true" > Edit</a>
             <a href="{% url 'delete_Ongie' item.pk %}" class="btn btn-danger btn-sm" role="button" aria-pressed="true" > x</a>
         </td>
 
         {% else %}
          <td>
-            <a href="{% url 'edit_Orange' item.pk %}" class="btn btn-warning btn-sm" role="button" aria-pressed="true" > Edit</a>
+            <a href="{% url 'edit_Orange' item.pk %}" class="btn btn-warning btn-sm mr-1" role="button" aria-pressed="true" > Edit</a>
             <a href="{% url 'delete_Orange' item.pk %}" class="btn btn-danger btn-sm" role="button" aria-pressed="true" > x</a>
          </td>
 

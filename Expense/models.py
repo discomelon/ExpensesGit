@@ -3,9 +3,11 @@ from django.db import models
 # Create your models here.
 class Expenses(models.Model):
 
-	Title = models.CharField(max_length=100, blank=False, unique = True)
+	Title = models.CharField(max_length=100, blank=False)
 	Price = models.CharField(max_length=50)
+
 	FYCHOICE = ( 
+          ('2018','2018'),
 		('2019/2020','2019/2020'),
 		('2020/2021','2020/2021'),
 		('2021/2022','2021/2022'),
@@ -35,13 +37,20 @@ class Expenses(models.Model):
      (' Electicity', 'Electicity'),
      ('Gas', 'Gas'),
      ('Conveyancing', 'Conveyancing'),
+     ('Meeting', 'Meeting'),
+     ('Admin', 'Admin'),
+     ('Fees', 'Fees'),
+     ('Lawyer', 'Lawyer'),
+     ('Marketing', 'Marketing'),
+     ('Store', 'Store'),
+     ('Brokage','Brokage'),
+     ('Travel','Travel'),
+     ('Bank Statement', 'Bank Statement'),
      )
-
 	Date = models.CharField(max_length=15,blank=True)
 	FY = models.CharField(max_length=50, choices=FYCHOICE,default="")
 	Category = models.CharField(max_length=50, choices=Choices,default="")
 	Image = models.FileField(blank=True, unique=True)
-
 
 
 
@@ -59,3 +68,4 @@ class Ongie(Expenses):
 
 class Orange(Expenses):
 	pass
+
