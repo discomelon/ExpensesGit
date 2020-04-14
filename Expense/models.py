@@ -6,6 +6,8 @@ class Expenses(models.Model):
 	Title = models.CharField(max_length=100, blank=False)
 	Price = models.CharField(max_length=50)
 
+
+
 	FYCHOICE = ( 
           ('2018','2018'),
 		('2019/2020','2019/2020'),
