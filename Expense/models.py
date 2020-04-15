@@ -7,7 +7,7 @@ class Expenses(models.Model):
 	Price = models.CharField(max_length=50)
 
 
-
+   
 	FYCHOICE = ( 
           ('2018','2018'),
 		('2019/2020','2019/2020'),
@@ -54,7 +54,7 @@ class Expenses(models.Model):
 	Category = models.CharField(max_length=50, choices=Choices,default="")
 	Image = models.FileField(blank=True, unique=True)
 
-
+     
 
 class Farhan(Expenses):
 	pass
