@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '@c7(7t3s=j)c1d*l(m8!bn!jn-la%bzj$-h3e2!*tw!&x_oqsw'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
@@ -122,4 +122,5 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 MEDIA_URL = "/content/"
-MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), "media_cdn")
+APP_DIR = os.path.join(BASE_DIR, 'Expense')
+MEDIA_ROOT = os.path.join(os.path.dirname(APP_DIR), "media_cdn")
