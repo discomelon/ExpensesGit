@@ -1,6 +1,10 @@
 from django.db import models
 
 # Create your models here.
+
+class Expensecsv(models.Model):
+     csvbutton = models.BooleanField(default=False)
+
 class Expenses(models.Model):
 
 	Title = models.CharField(max_length=100, blank=False)
@@ -53,8 +57,6 @@ class Expenses(models.Model):
 	FY = models.CharField(max_length=50, choices=FYCHOICE,default="")
 	Category = models.CharField(max_length=50, choices=Choices,default="")
 	Image = models.FileField(blank=True, unique=True)
-
-     
 
 class Farhan(Expenses):
 	pass

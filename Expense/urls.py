@@ -3,7 +3,10 @@ from .views import *
 
 urlpatterns =[
 
-url(r'^$', index, name='index'),
+url(r'^index$', index, name='index'),
+
+url(r'^$', home, name='home'),
+
 
 url(r'^display_Farhan$', display_Farhan, name='display_Farhan'),
 url(r'^display_Nadia$', display_Nadia, name='display_Nadia'),

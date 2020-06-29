@@ -1,0 +1,8 @@
+expenses_ptr,id,Title,Price,Date,FY,Category,Image
+33,33,Singapore Stay,302,09/09/2019,2019/2020,Work,FFSF_-_Singapore_Stay.pdf
+32,32,Bank Statement,0.00,01/10/2019,2019/2020,Work,FFSF__July_to_Oct_Bank_Statement.pdf
+31,31,Build Estimate,0.00,01/01/2020,2019/2020,Work,FFSF_-_Build_Estimate.pdf
+28,28,Stopover Overnight,296.77,09/09/19,2019/2020,Work,9393-20191007-statement_-_Singapore_Costs.pdf
+27,27,May to Aug - SW Fees,316,23/08/2019,2019/2020,Work,Receipt_from_Superannuation_Warehouse_22Aug2019.pdf
+26,26,ATO Payment + Fees,1441,31/07/2019,2019/2020,Work,FFSF_-_ATO_JUL_SEP_2019.pdf
+25,25,Visit - Architect,1257,12/08/2019,2019/2020,Work,FFSF_-_Visit_-_Architects.pdf

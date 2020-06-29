@@ -1,0 +1,45 @@
+.welcome {
+	height: 50rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-image: linear-gradient(to right, #c6ff00, #2e7d32);
+
+}
+
+.home-button {
+	width: 150px;
+	height: 100px;
+	margin-top: 10px;
+	font-weight: 300;
+	color: black;
+	border: solid black 1.5px;
+	border-radius: 1rem;
+	background-image: linear-gradient(to right, orange , yellow);
+}
+
+.welcome-header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	font-size: 30px;
+	text-transform: capitalize;
+	font-family: 'Pangolin', cursive;
+	margin-bottom: 0;
+}
+
+.btn-takeover {
+	text-decoration: none;
+	font-size: 1.3rem;
+	color: black;
+}
+
+.btn-takeover:hover {
+	color: white;
+}
+
+
+
+
+

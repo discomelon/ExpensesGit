@@ -6,6 +6,8 @@ from .forms import *
 def index(request):
 	return render(request, 'index.html')
 
+def home(request):
+	return render(request, 'home.html')
 
 def display_Farhan(request):
 	items = Farhan.objects.all()
